@@ -1,0 +1,13 @@
+	{||Content1||}
+		<property name="proxyInterfaces">
+			<list>
+				{||Content2||}
+				<value>cn.o.base.dao.impl.FinderExecutor</value>
+			</list>
+		</property>
+		<property name="target">
+			<bean parent="abstractDaoTarget">
+				{||Content3||}
+			</bean>
+		</property>
+	</bean>
